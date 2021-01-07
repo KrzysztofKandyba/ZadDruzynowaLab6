@@ -23,6 +23,7 @@
         }   
 
         printf("*");
+        printf("zmiany 1");
 
          
          
