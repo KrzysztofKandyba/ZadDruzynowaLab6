@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "odejmowanie.h"
+//komentarz
 
 int fun_odj(int a,int b)
 {

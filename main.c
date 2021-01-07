@@ -4,6 +4,7 @@
 #include "dod.h"
 #include "odejmowanie.c"
 #include "odejmowanie.h"
+//komentarz
 int main()
 {
     int x ,y;

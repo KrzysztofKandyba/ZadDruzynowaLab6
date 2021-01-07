@@ -3,3 +3,5 @@
 int fun_dod(int a, int b);
 #endif
 
+//komentarz
+
