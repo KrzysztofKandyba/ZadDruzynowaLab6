@@ -2,10 +2,10 @@
 #include<stdlib.h>
 main(){
     int a,b,x;
-    printf("podaj dwie liczby:");
+    printf("Geben Sie zwei Zaheln ein");
     scanf("%d%d",&a, &b);
     int x = a+b;
-    printf("wynik dodawania=%d", x);
+    printf("Additionsergebnis=%d", x);
     return;
 
 }
