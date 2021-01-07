@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
- unsigned gwiazdka, wysokosc;
+ unsigned gwiazdka, wysokosc, spacja, choinka;
  int main ()
  {
      printf("Podaj wysokosc choink:");
@@ -8,6 +8,13 @@
 
      for (gwiazdka = 0; gwiazdka < wysokosc; gwiazdka++)
      {
+        spacja = wysokosc - gwiazdka;
+         for (spacja;spacja>0;spacja--)
+         printf(" ");
+
+         for (choinka= 0;choinka<=2*gwiazdka; choinka++)
+        printf("*");
+        printf("\n");
 
      }
 
