@@ -1,11 +1,11 @@
-#include<stdio.h>
-#include<stdlib.h>
-main(){
-    int a,b,x;
-    printf("podaj dwie liczby:");
-    scanf("%d%d",&a, &b);
-    int x = a+b;
-    printf("wynik dodawania=%d", x);
-    return;
+#include <stdio.h>
+#include <stdlib.h>
+#include "dod.h"
 
+int fun_odj(int a,int b)
+{
+	int diff;
+	diff=a+b;
+	printf("\nWynik %d + %d wynosi %d",a,b,diff);
+	return  0;
 }

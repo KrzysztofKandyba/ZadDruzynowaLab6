@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-
+#include "dod.c"
+#include "dod.h"
+#include "odejmowanie.c"
+#include "odejmowanie.h"
 int main()
 {
     int x ,y;

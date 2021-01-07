@@ -1,10 +1,11 @@
-#include<stdio.h>
-int main()
+#include <stdio.h>
+#include <stdlib.h>
+#include "odejmowanie.h"
+
+int fun_odj(int a,int b)
 {
-	int num1,num2,diff;
-	printf("Podaj dwie liczby:");
-	scanf("%d %d",&num1,&num2);
-	diff=num1-num2;
-	printf("\nRoznica to : %d",diff);
+	int diff;
+	diff=a-b;
+	printf("\nWynik %d - %d wynosi %d",a,b,diff);
 	return  0;
 }
