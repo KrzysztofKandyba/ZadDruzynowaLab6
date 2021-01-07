@@ -15,12 +15,17 @@
          for (choinka= 0;choinka<=2*gwiazdka; choinka++)
         printf("*");
         printf("\n");
+        int pien;
+        for (pien = 0; pien<gwiazdka; pien++)
+       {
+           printf(" ");
+        }   
 
-     }
+        printf("*");
 
          
          
-     return 0; // asdasasd
+     return 0;
      
  }
 
